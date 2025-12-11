@@ -3,7 +3,7 @@
 import React from 'react'
 import { ChatInterface } from '@/components/chat/ChatInterface'
 
-const Projects = () => {
+export default function ChatPage() {
   const handleSendMessage = (message: string) => {
     // TODO: Implement API call to send message
     console.log('Sending message:', message)
@@ -16,4 +16,3 @@ const Projects = () => {
   )
 }
 
-export default Projects
