@@ -2,9 +2,9 @@
 
 import * as React from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { ChatInput } from "./ChatInput"
-import { MessageList } from "./MessageList"
-import { ErrorDisplay } from "./ErrorDisplay"
+import {ChatInput} from "@/components/chat/ChatInput"
+import { MessageList } from "@/components/chat/MessageList"
+import { ErrorDisplay } from "@/components/chat/ErrorDisplay"
 
 export interface Message {
   id: string
@@ -72,4 +72,5 @@ export function ChatInterface({
     </Card>
   )
 }
+
 
